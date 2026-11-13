@@ -4,17 +4,19 @@
 
 nav {
     background-color: rgb(60, 33, 6);
-    padding: 10px;
+    padding: 20px;
 }
 
 nav a {
     color: white;
-    display: block;
+    display: inline;
     padding: 20px;
+
 }
 
 h1 {
     color: rgb(60, 33, 6);
+    margin-left: 50px;
 }
 
 img {
@@ -33,14 +35,21 @@ main {
     max-width: 640px;
 }
 
+main p {
+    text-align: justify;
+    width: 500px;
+    padding: 10px;
+}
+
 aside {
     width: 20rem;
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 2rem;
     background-color: rgb(228, 226, 223);
-    color: #333;
+    color: rgb(60, 33, 6);
     text-align: center;
+    margin-left: 50px;
 }
 
 aside img {
@@ -51,6 +60,8 @@ aside img {
 
 aside h2 {
     margin-top: 0px;
+    color: rgb(60, 33, 6);
+    ;
 }
 
 aside p {
@@ -63,6 +74,7 @@ main img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 10px gray;
+    margin-left: 120px;
 }
 
 footer {
