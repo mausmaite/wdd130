@@ -1,3 +1,7 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -22,5 +26,30 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0px;
+}
+
+main {
+    max-width: 640px;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 2rem;
+    background-color: rgb(228, 226, 223);
+    color: #333;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 20px;
+    border-top: 1px solid rgb(0 0 0);
+    text-align: center;
 }
