@@ -3,7 +3,7 @@
 }
 
 nav {
-    background-color: darkblue;
+    background-color: rgb(60, 33, 6);
     padding: 10px;
 }
 
@@ -14,7 +14,7 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: rgb(60, 33, 6);
 }
 
 img {
@@ -43,9 +43,26 @@ aside {
     text-align: center;
 }
 
+aside img {
+    width: 300px;
+    height: auto;
+    margin-top: 10px;
+}
+
+aside h2 {
+    margin-top: 0px;
+}
+
+aside p {
+    margin-top: 40px;
+}
+
 main img {
     width: 200px;
     height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 10px gray;
 }
 
 footer {
