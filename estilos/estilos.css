@@ -9,7 +9,7 @@ nav {
 
 nav a {
     color: white;
-    display: inline;
+    display: block;
     padding: 20px;
 
 }
