@@ -1,0 +1,95 @@
+:root {
+    --cor-primaria: #0d233a;
+    /* Azul escuro profundo de fundo/base */
+    --cor-secundaria: #ffffff;
+    /* Branco puro para textos e contrastes */
+    --cor-destaque1: #1a365d;
+    /* Cor para textos longos */
+    --cor-destaque2: #00bfff;
+    /* Azul água / ciano (das corredeiras) */
+    --cor-fundo-card: #ff8c00;
+    /* Tom para blocos ou rodapé */
+    --fonte-titulo: "Montserrat", sans-serif;
+    --fonte-body: "Roboto", sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fonte-body);
+    color: var(--cor-destaque1)
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: var(--fonte-titulo);
+    color: var(--cor-primaria);
+    text-align: center;
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+footer {
+    text-align: center;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--cor-destaque1);
+    color: var(--cor-secundaria);
+}
+
+.hero article {
+    position: absolute;
+    top: 400px;
+    width: 100%;
+    max-width: 805px;
+    padding: 10px;
+    text-align: center;
+    background-color: var(--cor-fundo-card);
+    color: var(--cor-secundaria);
+}
+
+.hero article img {
+    max-width: 125px;
+    width: 100%;
+    height: auto;
+    float: right;
+}
+
+.redes-sociais a {
+    text-decoration: none;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
