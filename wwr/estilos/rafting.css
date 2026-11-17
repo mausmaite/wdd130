@@ -20,7 +20,12 @@
 
 body {
     font-family: var(--fonte-body);
-    color: var(--cor-destaque1)
+    color: var(--cor-destaque1);
+    text-align: center;
+}
+
+body header {
+    text-align: left;
 }
 
 header,
@@ -66,13 +71,15 @@ footer {
 
 .hero article {
     position: absolute;
-    top: 400px;
-    width: 100%;
-    max-width: 805px;
-    padding: 10px;
-    text-align: center;
-    background-color: var(--cor-destaque2);
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 700px;
+    padding: 16px;
+    background-color: rgba(255, 140, 0, 0.9);
     color: var(--cor-secundaria);
+    border-radius: 8px;
 }
 
 .hero article img {
@@ -80,14 +87,16 @@ footer {
     width: 100%;
     height: auto;
     float: right;
-}
-
-.redes-sociais a {
-    text-decoration: none;
+    margin-left: 15px;
+    border-radius: 4px;
 }
 
 .hero img {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.redes-sociais a {
+    text-decoration: none;
 }
