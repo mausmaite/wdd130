@@ -1,14 +1,12 @@
 :root {
     --cor-primaria: #0d233a;
-    /* Azul escuro profundo de fundo/base */
+    /* Azul escuro profundo para textos longos ou base */
     --cor-secundaria: #ffffff;
     /* Branco puro para textos e contrastes */
     --cor-destaque1: #1a365d;
-    /* Cor para textos longos */
-    --cor-destaque2: #00bfff;
-    /* Azul água / ciano (das corredeiras) */
-    --cor-fundo-card: #ff8c00;
-    /* Tom para blocos ou rodapé */
+    /* Cor para detalhes estéticos */
+    --cor-destaque2: #ff8c00;
+    /* Cor para detalhes estéticos */
     --fonte-titulo: "Montserrat", sans-serif;
     --fonte-body: "Roboto", sans-serif;
 
@@ -73,7 +71,7 @@ footer {
     max-width: 805px;
     padding: 10px;
     text-align: center;
-    background-color: var(--cor-fundo-card);
+    background-color: var(--cor-destaque2);
     color: var(--cor-secundaria);
 }
 
