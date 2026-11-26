@@ -3,7 +3,6 @@
     --cor-secundaria: #ffffff;
     --cor-destaque1: #1a365d;
     --cor-destaque2: #ff8c00;
-    --cor-destaque3: #19b1e8;
     --fonte-titulo: "Montserrat", sans-serif;
     --fonte-body: "Roboto", sans-serif;
 }
@@ -51,7 +50,7 @@ nav ul {
     justify-content: flex-end;
     align-items: center;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 nav a {
@@ -98,7 +97,7 @@ article {
 
 .hero article {
     position: absolute;
-    bottom: 20px;
+    bottom: 0px;
     left: 50%;
     transform: translateX(-50%);
     width: 90%;
@@ -107,6 +106,7 @@ article {
     background-color: var(--cor-destaque2);
     color: var(--cor-primaria);
     border-radius: 8px;
+    opacity: 0.95;
 
 }
 
@@ -117,6 +117,13 @@ article {
     float: right;
     margin-left: 15px;
     border-radius: 4px;
+}
+
+.hero article p {
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.35;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .hero img {
@@ -161,7 +168,7 @@ article {
 }
 
 .aventuras {
-    background-color: var(--cor-destaque3);
+    background-color: var(--cor-destaque1);
     padding: 0.5rem;
     padding-top: 1rem;
     max-width: 840px;
@@ -195,6 +202,7 @@ article {
     font-size: 0.85rem;
     padding-top: 0.35rem;
     color: var(--cor-secundaria);
+    line-height: 1.35;
 }
 
 footer {
